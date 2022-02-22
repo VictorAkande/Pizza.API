@@ -47,5 +47,20 @@ namespace Pizza.API.Controllers
         //PUT action
 
         //DELETE action
+
+        public ActionResult Delete(int Id)
+        {
+            var recordExist = PizzaService.Get(Id) != null;
+            if (recordExist)
+            {
+                PizzaService.Delete(Id);
+            }
+            else
+            {
+                return BadRequest();
+            }
+
+            return NoContent();
+        }
     }
 }
