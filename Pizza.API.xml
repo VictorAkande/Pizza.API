@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Pizza.API</name>
+    </assembly>
+    <members>
+        <member name="M:Pizza.API.Controllers.PizzaController.GetAll">
+            <summary>
+            To get list of Pizza
+            </summary>
+            <returns>List of Pizza</returns>
+        </member>
+        <member name="P:Pizza.API.Models.Pizzas.Id">
+            <summary>
+            Identifier for each Pizza
+            </summary>
+            
+        </member>
+        <member name="P:Pizza.API.Models.Pizzas.Name">
+            <summary>
+            Name of Pizza
+            </summary>
+        </member>
+        <member name="P:Pizza.API.Models.Pizzas.IsGlutenFree">
+            <summary>
+            Checks if Pizza contains Gluten
+            returns a boolean value
+            </summary>
+        </member>
+    </members>
+</doc>
