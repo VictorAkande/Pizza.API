@@ -4,10 +4,7 @@ namespace Pizza.API.Models
 {
     public class Pizzas
     {
-        /// <summary>
-        /// Identifier for each Pizza
-        /// </summary>
-        /// 
+    
         [Key]
         public int Id { get; set; }
         /// <summary>
